@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu_superior{
+    height: 42.4px;
+    width: max(100%,1000px);
+    background: black;
+}
+
+.iniciales{
+    color: black;
+    margin-left: 5%;
+    font-size: 170%;
+}
+
+
+/* .boton_inicio{
+    height: 25px;
+    margin-left: 17%;
+    box-shadow: 5px 5px 2px;
+} */
+/* .boton_inicio:hover{
+    background-color: rgb(243, 204, 132);
+} */
+.boton-sobre-mi{
+    height: 30px;
+    width: 120px;
+    display: inline-block;
+    margin-left: 25%;
+    text-align: center;
+    border: 2px solid white;
+    color: orange;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* .boton_sobreMi:hover{
+    background-color: rgb(243, 204, 132);
+    /* transform: scale(1); 
+} */
+
+.boton_servicios{
+    height: 25px;
+    margin-left: 1%;
+    box-shadow: 5px 5px 2px;
+}
+.boton_servicios:hover{
+    background-color: rgb(243, 204, 132);
+}
+.boton_portfolio{
+    height: 25px;
+    margin-left: 1%;
+    box-shadow: 5px 5px 2px;
+}
+.boton_portfolio:hover{
+    background-color: rgb(243, 204, 132);
+}
+.boton_contacto{
+    height: 30px;
+    width: 138px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    border: 2px solid white;
+    color: orange;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* .boton_contacto:hover{
+    background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+} */
+
+
+.cuad_titl_prin{
+    border: 2px solid black;
+    box-shadow: 0px 0px 25px;
+    height: 400px;
+    width: min(60%,1000px);
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 120%;
+}
+.imagen_logo{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px;
+    background-image: url(https://img.freepik.com/vector-premium/diseno-logotipo-ar-letras-combinadas_534975-54.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.redes_sociales{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-left: 85%;
+    height: 40px;
+    margin-top: -2.9%;
+    background-color: black;
+}
+
+.soy{
+    font-size: 50px;
+}
+
+.symbol{
+    color: orange;
+}
+
+.progYdes{
+    font-size: 50px;
+}
+
+.cuadro_boton{
+    margin-top: 30%;
+    height: 35px;
+    border-radius: 15px;
+}
+.cuadro_boton:hover{
+    background-color: rgb(243, 204, 132);
+    font-size: 70%;
+}
+.iniciales p{
+    color: orange;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+a img{
+    height: 35px;
+    width: min(20%,1000px);
+    margin: auto;
+    margin-left: 7%;
+    transition: all 1s;
+}
+
+a img:nth-child(n):hover{
+    transform: scale(1)rotate(360deg);
+    transition: transform 1s;
+}
+
+.contenedor_texto2{
+
+    margin-top: 9%;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    box-sizing: border-box; */
+}
+
+h2{
+    text-align: center;
+}
+
+.cuadro-foto-perfil{
+    border: 2px solid orange;
+    height: 400px;
+    width: 300px;
+    background-image: url(foto-perfil.png);
+}
+
+/* .texto-2da-section{
+    border: 2px solid rgb(255, 0, 179);
+    height: 50px;
+    width: 50px;
+    margin-left: 50%;
+} */
+
+.texto-3da-section{
+    border: 2px solid black;
+    box-shadow: 0px 0px 25px;
+    height: 380px;
+    width: min(60%,1000px);
+    margin: auto;
+    margin-left: 50%;
+    margin-top: 2%;
+    float: right;
+    margin-right: 5%;
+}
+
+.boton-sec3{
+    height: 30px;
+    width: 125px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 2px solid black;
+    color: orange;
+    background-color: black;
+    box-shadow: 0px 0px 25px black;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.texto-3da-section span{
+    color: orange;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.contenedor_sec3{
+    margin: auto;
+    margin-top: 14%;
+}
+
+.contenedor-email{
+    height: 150px;
+    width: 92%;
+    float: right;
+    border: 2px solid orange;
+    box-shadow: 0px 0px 25px;
+    margin-top: 3%;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.contenedor_sec3 p{
+    margin-top: 2%;
+    color: black;
+    position: relative;
+    left: 0.5%;
+    top: 50%;
+}
+
+.contenedor-telefono{
+    height: 150px;
+    width: 92%;
+    margin-top: max(30%,100px);
+    border: 2px solid orange;
+    box-shadow: 0px 0px 25px;
+    text-align: center;
+    position: absolute;
+    
+}
+
+/* .contenedor_sec3 p{
+    margin-top: 5%;
+    color: brown;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    right: 5%
+} */
+
+.contenedor_sec3 a{
+    margin: auto;
+    margin-left: 80%;
+    height: 30px;
+    width: 125px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    color: orange;
+    background: black;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* .foto-perfil{
+    height: 60%;
+    margin-right: 100%;
+} */
+
+@media screen and (max-width:1230px){
+    .redes_sociales{
+        margin-top: -3.6%;
+    }
+
+    /* .cuad_titl_prin{
+        margin-right: 10%;    
+    }
+   
+    .contenedor_texto2 h2{
+        margin-top: 10%;
+    }
+    .texto-3da-section{
+        height: 380px;
+        width: 740px;
+        flex-direction: column-reverse;
+        margin-top: 25%;
+
+        
+    }
+    .cuadro-foto-perfil{
+        margin-left: 42%;
+        margin-top: 2%;
+        height: 200px;
+        width: 150px;
+        background-size: cover;
+        background-position: center;
+    }*/
+
+    /* .contenedor-telefono{
+        margin-top: 35%;
+    }
+    .contenedor-telefono a{
+        
+    } */
+
+} 
+
+@media screen and (max-width:558px){
+    .contenedor-telefono{
+        margin-top: 59%;
+    }
+    .contenedor_sec3 a{
+        margin: auto;
+        margin-top: 11%;
+    }
+}
