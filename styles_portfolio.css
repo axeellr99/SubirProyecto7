@@ -27,15 +27,6 @@ body{
     font-size: 170%;
 }
 
-
-/* .boton_inicio{
-    height: 25px;
-    margin-left: 17%;
-    box-shadow: 5px 5px 2px;
-} */
-/* .boton_inicio:hover{
-    background-color: rgb(243, 204, 132);
-} */
 .boton-sobre-mi{
     height: 30px;
     width: 120px;
@@ -49,10 +40,6 @@ body{
     font-size: 20px;
 }
 
-/* .boton_sobreMi:hover{
-    background-color: rgb(243, 204, 132);
-    /* transform: scale(1); 
-} */
 
 .boton_servicios{
     height: 25px;
@@ -82,9 +69,7 @@ body{
     text-decoration: none;
     font-size: 20px;
 }
-/* .boton_contacto:hover{
-    background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
-} */
+
 
 
 .cuad_titl_prin{
@@ -114,7 +99,6 @@ h5{
 
 
 .redes_sociales{
-    /* border: 2px solid red; */
     margin: auto;
     margin-left: 85%;
     height: 40px;
@@ -164,10 +148,7 @@ a img:nth-child(n):hover{
 }
 
 .contenedor_texto2{
-
     margin-top: 9%;
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    box-sizing: border-box; */
 }
 
 h2{
@@ -181,12 +162,6 @@ h2{
     background-image: url(foto-perfil.png);
 }
 
-/* .texto-2da-section{
-    border: 2px solid rgb(255, 0, 179);
-    height: 50px;
-    width: 50px;
-    margin-left: 50%;
-} */
 
 .texto-3da-section{
     border: 2px solid black;
@@ -236,7 +211,7 @@ h2{
 
 .texto-3da-section span{
     color: orange;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    
 }
 
 .contenedor_sec3{
@@ -275,14 +250,6 @@ h2{
     
 }
 
-/* .contenedor_sec3 p{
-    margin-top: 5%;
-    color: brown;
-    position: relative;
-    left: 10%;
-    top: 50%;
-    right: 5%
-} */
 
 .contenedor_sec3 a{
     margin: auto;
@@ -298,47 +265,12 @@ h2{
     text-decoration: none;
     font-size: 20px;
 }
-/* .foto-perfil{
-    height: 60%;
-    margin-right: 100%;
-} */
+
 
 @media screen and (max-width:1230px){
     .redes_sociales{
         margin-top: -3.6%;
     }
-
-    /* .cuad_titl_prin{
-        margin-right: 10%;    
-    }
-   
-    .contenedor_texto2 h2{
-        margin-top: 10%;
-    }
-    .texto-3da-section{
-        height: 380px;
-        width: 740px;
-        flex-direction: column-reverse;
-        margin-top: 25%;
-
-        
-    }
-    .cuadro-foto-perfil{
-        margin-left: 42%;
-        margin-top: 2%;
-        height: 200px;
-        width: 150px;
-        background-size: cover;
-        background-position: center;
-    }*/
-
-    /* .contenedor-telefono{
-        margin-top: 35%;
-    }
-    .contenedor-telefono a{
-        
-    } */
-
 } 
 
 @media screen and (max-width:558px){

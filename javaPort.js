@@ -1,4 +1,3 @@
-// const nasa_api= '35777O4PlWQnrbGeZLPEJ2Spf7DgqVExwc8Lk69N'
 const MyUrl= 'https://pokeapi.co/api/v2/pokemon-form/'
 const myDiv= document.querySelector('.ApiResult')
 let myTitle=document.createElement('h1')
